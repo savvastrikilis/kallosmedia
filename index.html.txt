@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="el" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Αποκλειστική Προσφορά Digital Marketing | Περιορισμένες Θέσεις</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter & Plus Jakarta Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eef2ff',
+                            100: '#e0e7ff',
+                            500: '#6366f1',
+                            600: '#4f46e5',
+                            700: '#4338ca',
+                            900: '#312e81',
+                        },
+                        accent: {
+                            gold: '#f59e0b',
+                            rose: '#f43f5e',
+                            emerald: '#10b981'
+                        }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-soft': 'bounce 2s infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .glass-dark {
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #4f46e5 0%, #9333ea 50%, #f43f5e 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+        }
+        .gold-border {
+            border: 2px solid #f59e0b;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Sticky Top Banner Urgency -->
+    <div class="bg-gradient-to-r from-red-600 via-rose-600 to-indigo-600 text-white text-xs sm:text-sm font-semibold py-2.5 px-4 text-center shadow-lg sticky top-0 z-50 flex items-center justify-center gap-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-white animate-ping"></span>
+        <span>🔥 ΑΠΟΚΛΕΙΣΤΙΚΗ ΠΡΟΣΦΟΡΑ: Μόνο 5 διαθέσιμες θέσεις για αυτόν τον μήνα!</span>
+        <a href="#packages" class="underline hover:text-amber-200 transition-colors ml-2 hidden sm:inline">Δες τα πακέτα &rarr;</a>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex justify-between items-center">
+        <div class="flex items-center gap-2">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-purple-500 flex items-center justify-center shadow-lg shadow-brand-500/30">
+                <i class="fa-solid font-bold text-xl text-white">K</i>
+            </div>
+            <span class="text-2xl font-extrabold tracking-tight text-white">KALLOS<span class="text-brand-500">MEDIA</span></span>
+        </div>
+        <a href="tel:+306983589908" class="hidden sm:flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-5 py-2.5 rounded-full border border-slate-700 transition-all text-sm">
+            <i class="fa-solid fa-phone text-emerald-400"></i> +30 698 358 9908
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-10 pb-20 overflow-hidden">
+        <!-- Glow effects background -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-600/20 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute top-1/3 left-1/3 w-[300px] h-[300px] bg-purple-600/20 rounded-full blur-[100px] pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <!-- Urgency Badge -->
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800/80 border border-slate-700/80 text-amber-400 text-sm font-medium mb-8 backdrop-blur-md shadow-md animate-pulse-slow">
+                <i class="fa-solid fa-hourglass-half"></i>
+                <span>Οι θέσεις είναι περιορισμένες! ⏳</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
+                Εκτοξεύστε την Επιχείρησή σας με <span class="gradient-text">Επαγγελματικό Social Media Marketing</span>
+            </h1>
+
+            <p class="text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto font-normal leading-relaxed mb-10">
+                Αποκτήστε ολοκληρωμένη παρουσία, στρατηγική περιεχομένου και στοχευμένες διαφημίσεις με <strong>50% έκπτωση</strong> στις αρχικές τιμές. Επιλέξτε το πακέτο που ταιριάζει στις ανάγκες σας.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#packages" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-brand-600 to-purple-600 hover:from-brand-500 hover:to-purple-500 text-white font-bold text-lg shadow-xl shadow-brand-600/30 hover:shadow-brand-600/50 hover:scale-[1.02] transition-all flex items-center justify-center gap-3">
+                    <span>Δείτε τα Πακέτα Προσφοράς</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="https://wa.me/306983589908?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82!%20%CE%98%CE%AD%CE%BB%CF%89%20%CE%BD%CE%B1%20%CE%BC%CE%AC%CE%B8%CF%89%20%CF%80%CE%B5%CF%81%CE%B9%CF%83%CF%83%CF%8C%CF%84%CE%B5%CF%81%CE%B1%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B1%20%CF%80%CE%B1%CE%BA%CE%AD%CF%84%CE%B1%20%CF%80%CF%81%CE%BF%CF%83%CF%86%CE%BF%CF%81%CE%AC%CF%82." target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-slate-900/80 hover:bg-slate-800 text-slate-200 font-semibold text-lg border border-slate-700/80 hover:border-slate-600 transition-all flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-emerald-400 text-xl"></i>
+                    <span>Άμεση Επικοινωνία</span>
+                </a>
+            </div>
+
+            <!-- Social proof / Trust badges -->
+            <div class="mt-14 pt-8 border-t border-slate-800/80 flex flex-wrap justify-center items-center gap-8 sm:gap-12 text-slate-400 text-sm font-medium">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-400"></i> Χωρίς Μακροχρόνιες Δεσμεύσεις
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-400"></i> 100% Εξατομικευμένη Στρατηγική
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-check text-emerald-400"></i> Μηνιαία Αναφορά Απόδοσης
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-20 relative bg-slate-900/60 border-y border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-500 font-bold uppercase tracking-wider text-xs sm:text-sm">Ειδικές Τιμές Γνωριμίας</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2 mb-4">Επιλέξτε το Πακέτο σας</h2>
+                <p class="text-slate-400 text-base sm:text-lg">Επενδύστε στην ανάπτυξη της επιχείρησής σας με τις πιο ανταγωνιστικές τιμές της αγοράς.</p>
+            </div>
+
+            <!-- Pricing Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                
+                <!-- PACKAGE 1: STARTER -->
+                <div class="rounded-3xl bg-slate-950/70 border border-slate-800 hover:border-slate-700 p-8 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:shadow-slate-900 relative">
+                    <div>
+                        <!-- Top Tag -->
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="px-3.5 py-1.5 rounded-full bg-slate-800 text-slate-300 text-xs font-bold tracking-wide">STARTER</span>
+                            <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold">Έκπτωση -50%</span>
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-white mb-2">Βασικό Πακέτο</h3>
+                        <p class="text-slate-400 text-sm mb-6">Ιδανικό για μικρές επιχειρήσεις & νέα brand που θέλουν σταθερή παρουσία.</p>
+
+                        <!-- Price -->
+                        <div class="mb-8 p-4 rounded-2xl bg-slate-900/90 border border-slate-800">
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-4xl font-extrabold text-white">250€</span>
+                                <span class="text-slate-400 font-normal">/ μήνα</span>
+                            </div>
+                            <div class="text-slate-500 text-sm mt-1">
+                                Αρχική τιμή: <span class="line-through text-slate-400 font-semibold">500€</span>
+                            </div>
+                        </div>
+
+                        <!-- Features list -->
+                        <ul class="space-y-4 mb-8 text-slate-300 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span><strong>Social Media Strategy</strong> (Στρατηγική περιεχομένου)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span><strong>8 Custom Δημοσιεύσεις / Reels</strong> το μήνα</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Δημιουργία & Επεξεργασία Περιεχομένου</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Μηνιαία Αναφορά Απόδοσης (Report)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Dedicated Account Manager</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#contact" class="w-full py-4 rounded-xl bg-slate-800 hover:bg-brand-600 text-white font-bold transition-all text-center border border-slate-700 hover:border-brand-500 shadow-md">
+                        Επιλογή Πακέτου
+                    </a>
+                </div>
+
+                <!-- PACKAGE 2: GROWTH (POPULAR / FEATURED) -->
+                <div class="rounded-3xl bg-slate-950 border-2 border-brand-500 p-8 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:shadow-brand-500/20 relative lg:-translate-y-4 shadow-xl">
+                    <!-- Featured Badge -->
+                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-brand-600 to-purple-600 text-white font-bold text-xs py-1.5 px-4 rounded-full shadow-lg uppercase tracking-wider border border-white/20">
+                        ⭐ Δημοφιλέστερη Επιλογή
+                    </div>
+
+                    <div>
+                        <!-- Top Tag -->
+                        <div class="flex justify-between items-center mb-6 mt-2">
+                            <span class="px-3.5 py-1.5 rounded-full bg-brand-500/20 text-brand-300 text-xs font-bold tracking-wide border border-brand-500/30">GROWTH</span>
+                            <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold">Έκπτωση -50%</span>
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-white mb-2">Δημοφιλές Πακέτο</h3>
+                        <p class="text-slate-400 text-sm mb-6">Για επιχειρήσεις που θέλουν γρήγορη ανάπτυξη & στοχευμένες διαφημίσεις.</p>
+
+                        <!-- Price -->
+                        <div class="mb-8 p-4 rounded-2xl bg-gradient-to-r from-brand-950/60 to-purple-950/60 border border-brand-500/40">
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-4xl font-extrabold text-white">600€</span>
+                                <span class="text-slate-400 font-normal">/ μήνα</span>
+                            </div>
+                            <div class="text-slate-400 text-sm mt-1">
+                                Αρχική τιμή: <span class="line-through text-slate-500 font-semibold">1200€</span>
+                            </div>
+                        </div>
+
+                        <!-- Features list -->
+                        <ul class="space-y-4 mb-8 text-slate-200 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-1"></i>
+                                <span><strong>Πλήρης Διαχείριση Social Media</strong> (16 Posts/Reels)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-1"></i>
+                                <span><strong>Στήσιμο & Διαχείριση Διαφημίσεων</strong> (Meta & Google Ads)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-1"></i>
+                                <span>Professional Copywriting & Graphic Design</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-1"></i>
+                                <span>Brand Identity Boost & Visual Strategy</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-400 mt-1"></i>
+                                <span>Βελτιστοποίηση Καμπανιών ανά 15 ημέρες</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#contact" class="w-full py-4 rounded-xl bg-gradient-to-r from-brand-600 to-purple-600 hover:from-brand-500 hover:to-purple-500 text-white font-bold transition-all text-center shadow-lg shadow-brand-600/40 hover:scale-[1.01]">
+                        Επιλογή Πακέτου
+                    </a>
+                </div>
+
+                <!-- PACKAGE 3: ENTERPRISE -->
+                <div class="rounded-3xl bg-slate-950/70 border border-slate-800 hover:border-slate-700 p-8 flex flex-col justify-between transition-all duration-300 hover:shadow-2xl hover:shadow-slate-900 relative">
+                    <div>
+                        <!-- Top Tag -->
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="px-3.5 py-1.5 rounded-full bg-slate-800 text-amber-400 text-xs font-bold tracking-wide">ENTERPRISE</span>
+                            <span class="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold">Έκπτωση -47%</span>
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-white mb-2">Premium Πακέτο</h3>
+                        <p class="text-slate-400 text-sm mb-6">Ολοκληρωτική κάλυψη 360° για μέγιστες πωλήσεις & κυριαρχία στην αγορά.</p>
+
+                        <!-- Price -->
+                        <div class="mb-8 p-4 rounded-2xl bg-slate-900/90 border border-slate-800">
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-4xl font-extrabold text-white">800€</span>
+                                <span class="text-slate-400 font-normal">/ μήνα</span>
+                            </div>
+                            <div class="text-slate-500 text-sm mt-1">
+                                Αρχική τιμή: <span class="line-through text-slate-400 font-semibold">1500€</span>
+                            </div>
+                        </div>
+
+                        <!-- Features list -->
+                        <ul class="space-y-4 mb-8 text-slate-300 text-sm">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span><strong>360° Digital Marketing & Video Production</strong></span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span><strong>30 High-Quality Posts & Reels</strong> μηνιαίως</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Advanced Ad Funnels & Retargeting Strategy</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Landing Page Optimization (Βελτιστοποίηση Μετατροπών)</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Εβδομαδιαίο Reporting & <strong>VIP 24/7 Support</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#contact" class="w-full py-4 rounded-xl bg-slate-800 hover:bg-brand-600 text-white font-bold transition-all text-center border border-slate-700 hover:border-brand-500 shadow-md">
+                        Επιλογή Πακέτου
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Callout Banner -->
+    <section class="py-16 relative overflow-hidden bg-gradient-to-r from-purple-900/60 via-slate-900 to-brand-950/80 border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 text-center relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-400 text-xs sm:text-sm font-semibold mb-4 border border-rose-500/30">
+                <i class="fa-solid fa-fire animate-bounce"></i> ΠΕΡΙΟΡΙΣΜΕΝΗ ΔΙΑΘΕΣΙΜΟΤΗΤΑ
+            </div>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white mb-6">
+                Ας ξεκινήσουμε — Οι θέσεις είναι περιορισμένες!
+            </h2>
+            <p class="text-slate-300 text-lg max-w-2xl mx-auto mb-8">
+                Για να διατηρήσουμε την υψηλή ποιότητα υπηρεσιών, αναλαμβάνουμε περιορισμένο αριθμό νέων επιχειρήσεων κάθε μήνα. Κρατήστε τη θέση σας σήμερα πριν εξαντληθούν.
+            </p>
+
+            <!-- Counter Box & 15-Day Countdown -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-6 bg-slate-950/80 p-6 sm:p-8 rounded-3xl border border-slate-800 mb-8 shadow-2xl max-w-3xl mx-auto">
+                <div class="text-center px-4">
+                    <span class="block text-4xl sm:text-5xl font-black text-amber-400">5</span>
+                    <span class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1 block">Απομένουν 5 θέσεις</span>
+                </div>
+                <div class="hidden sm:block h-12 w-px bg-slate-800"></div>
+                
+                <!-- Countdown Grid: Days, Hours, Mins, Secs -->
+                <div class="grid grid-cols-4 gap-3 text-center">
+                    <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-2xl min-w-[65px]">
+                        <span id="days" class="block text-2xl sm:text-3xl font-extrabold text-rose-400">15</span>
+                        <span class="text-[10px] sm:text-xs text-slate-400 uppercase font-semibold">ΗΜΕΡΕΣ</span>
+                    </div>
+                    <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-2xl min-w-[65px]">
+                        <span id="hours" class="block text-2xl sm:text-3xl font-extrabold text-white">00</span>
+                        <span class="text-[10px] sm:text-xs text-slate-400 uppercase font-semibold">ΩΡΕΣ</span>
+                    </div>
+                    <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-2xl min-w-[65px]">
+                        <span id="minutes" class="block text-2xl sm:text-3xl font-extrabold text-white">00</span>
+                        <span class="text-[10px] sm:text-xs text-slate-400 uppercase font-semibold">ΛΕΠΤΑ</span>
+                    </div>
+                    <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-2xl min-w-[65px]">
+                        <span id="seconds" class="block text-2xl sm:text-3xl font-extrabold text-amber-400">00</span>
+                        <span class="text-[10px] sm:text-xs text-slate-400 uppercase font-semibold">ΔΕΥΤ.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <a href="#contact" class="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-extrabold text-lg transition-all shadow-lg shadow-amber-500/20 hover:scale-105">
+                    <span>Επικοινωνήστε Μαζί Μας Τώρα</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Contact Details Section (No Form) -->
+    <section id="contact" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-brand-500 font-bold uppercase tracking-wider text-xs sm:text-sm">Στοιχεία Επικοινωνίας</span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-white mt-2 mb-4">Επικοινωνήστε Απευθείας</h2>
+            <p class="text-slate-400 text-base sm:text-lg mb-12">Είμαστε στη διάθεσή σας για να λύσουμε κάθε απορία και να ξεκινήσουμε τη συνεργασία μας.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Phone -->
+                <a href="tel:+306983589908" class="group p-8 rounded-3xl bg-slate-900/90 border border-slate-800 hover:border-brand-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-brand-500/10 flex flex-col items-center justify-center">
+                    <div class="w-16 h-16 rounded-2xl bg-brand-500/10 text-brand-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <span class="text-xs text-slate-400 uppercase tracking-wider font-semibold mb-1">Τηλέφωνο</span>
+                    <span class="text-lg font-bold text-white group-hover:text-brand-400 transition-colors">+30 698 358 9908</span>
+                </a>
+
+                <!-- WhatsApp Direct -->
+                <a href="https://wa.me/306983589908?text=%CE%93%CE%B5%CE%B9%CE%B1%20%CF%83%CE%B1%CF%82!%20%CE%98%CE%AD%CE%BB%CF%89%20%CE%BD%CE%B1%20%CE%BC%CE%AC%CE%B8%CF%89%20%CF%80%CE%B5%CF%81%CE%B9%CF%83%CF%83%CF%8C%CF%84%CE%B5%CF%81%CE%B1%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B1%20%CF%80%CE%B1%CE%BA%CE%AD%CF%84%CE%B1%20%CF%80%CF%81%CE%BF%CF%83%CF%86%CE%BF%CF%81%CE%AC%CF%82." target="_blank" class="group p-8 rounded-3xl bg-slate-900/90 border border-emerald-500/30 hover:border-emerald-500 transition-all duration-300 hover:shadow-xl hover:shadow-emerald-500/10 flex flex-col items-center justify-center">
+                    <div class="w-16 h-16 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-3xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <span class="text-xs text-emerald-400 uppercase tracking-wider font-semibold mb-1">WhatsApp Direct</span>
+                    <span class="text-lg font-bold text-white group-hover:text-emerald-400 transition-colors">+30 698 358 9908</span>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:kallosmedia1.618@gmail.com" class="group p-8 rounded-3xl bg-slate-900/90 border border-slate-800 hover:border-purple-500/50 transition-all duration-300 hover:shadow-xl hover:shadow-purple-500/10 flex flex-col items-center justify-center">
+                    <div class="w-16 h-16 rounded-2xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <span class="text-xs text-slate-400 uppercase tracking-wider font-semibold mb-1">Email</span>
+                    <span class="text-[15px] sm:text-base font-bold text-white group-hover:text-purple-400 transition-colors break-all">kallosmedia1.618@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-slate-950 border-t border-slate-800/80 text-center text-slate-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>© 2026 Kallos Media. Όλα τα δικαιώματα διατηρούνται.</p>
+        </div>
+    </footer>
+
+    <!-- 15-Day Countdown Timer Script -->
+    <script>
+        (function start15DaysTimer() {
+            // Check if countdown target date exists in localStorage or set new target date 15 days from now
+            let targetDate = localStorage.getItem('kallos_offer_target_date');
+            if (!targetDate) {
+                targetDate = new Date().getTime() + (15 * 24 * 60 * 60 * 1000);
+                localStorage.setItem('kallos_offer_target_date', targetDate);
+            } else {
+                targetDate = parseInt(targetDate, 10);
+            }
+
+            function updateTimer() {
+                const now = new Date().getTime();
+                const distance = targetDate - now;
+
+                if (distance < 0) {
+                    // Reset to new 15 days if expired
+                    const newTarget = new Date().getTime() + (15 * 24 * 60 * 60 * 1000);
+                    localStorage.setItem('kallos_offer_target_date', newTarget);
+                    return;
+                }
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                const dEl = document.getElementById('days');
+                const hEl = document.getElementById('hours');
+                const mEl = document.getElementById('minutes');
+                const sEl = document.getElementById('seconds');
+
+                if (dEl) dEl.textContent = days < 10 ? '0' + days : days;
+                if (hEl) hEl.textContent = hours < 10 ? '0' + hours : hours;
+                if (mEl) mEl.textContent = minutes < 10 ? '0' + minutes : minutes;
+                if (sEl) sEl.textContent = seconds < 10 ? '0' + seconds : seconds;
+            }
+
+            updateTimer();
+            setInterval(updateTimer, 1000);
+        })();
+    </script>
+</body>
+</html>
